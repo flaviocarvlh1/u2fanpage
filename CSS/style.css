@@ -307,4 +307,89 @@ span {
 }
 
 
+@media (max-width: 600px) {
+    
+    .logo {
+        display: none;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        
+    }
+
+    .nav li {
+        margin-top: 15px;
+    }
+
+    #lupa {
+        display: none;
+        
+    }
+
+   
+
+    .title {
+        text-align: center;
+        font: 30px;
+    }
+
+    .resume {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .title-discography {
+        margin: auto;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .discography {
+        width: 100%;
+        margin-top: 80%;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    .img-insta  img {
+       width: 100%;
+    }
+
+    .content-footer {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .fa-location-dot {
+        margin-left: -33px;
+    }
+
+    .fa-envelope {
+        margin-left: 2px;
+    }
+
+    .form {
+       margin-top: 50px;
+    }
+
+    #name, #email {
+     width: 150px;
+    }
+
+    #menssagem {
+        width: 325px;
+    }
+
+    
+}
+
 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Descption" content="Pratica 14">
+    <meta name="Author" content="Flávio Carvalho">
+    <meta name="Description" content="Essa é uma página de fã, sobre a banda U2, 
+    feito para um caso pratico no curso de Web Development da Master D.
+     Nessa página vai encontrar informações, Discografia, Contatos e muito mais!">
+    <meta name="keyWords" content="U2, Bono, The Edge, Adam Clayton, Larry Mullen JR, Musica, Contatos, Email, Yellow, Parachutes, Ghost Stories, Rock, Pop, Pop Rock, Formação,  London, Portugal, Brasil.">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="website icon" type="png" href="./Images/logo.png">
+
+    
+    <script src="https://kit.fontawesome.com/10053d2c6d.js" crossorigin="anonymous"></script>
+    
+
+    <title>Fan Page Web - U2 Tribute </title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="./Images/logo.png" alt="Logo U2" width="50" height="30">
+            </div>
+            
+            <ul>
+                <li><a href="./page.html">HOME</a></li>
+                <li><a href="">DISCOGRAFIA</a></li>
+                <li class="banda">
+                    <a href="">A BANDA <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="banda-menu">
+                        <a href="https://pt.wikipedia.org/wiki/Bono" target="_blank">Bono</a>
+                        <a href="https://pt.wikipedia.org/wiki/The_Edge" target="_blank">The Edge</a>
+                        <a href="https://pt.wikipedia.org/wiki/Adam_Clayton" target="_blank">Adam Clayton</a>
+                        <a href="https://pt.wikipedia.org/wiki/Larry_Mullen_Jr." target="_blank">Larry Mullen JR</a>
+                    </div>
+                </li>
+                <li><a href="#contacto">CONTACTO</a></li>
+
+            </ul>
+            <div id="lupa">
+                <form action="#" method="post">
+                    <input type="radio" name="search" id="search" required>
+                    <button type="submit"><i id="lupa" class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+               
+            </div>
+        </div>
+
+
+
+    <footer id="contacto">
+        <div class="contacto">
+            <h4>CONTACTOS</h4>
+            <p>Envie uma menssagem para a banda!</p>
+        </div>
+        <div class="content-footer">
+
+            <div class="address">
+                <i class="fa-solid fa-location-dot" style="color: #121212;"></i><span> Dublin . Leinster</span><br>
+                <i class="fa-solid fa-phone" style="color: #121212;"></i><span>Phone: + 123 456 789 </span><br>
+                <i class="fa-solid fa-envelope" style="color: #121212;"></i><span><a href="mailto:u2@gmail.com">Email: u2@gmail.com</a></span>
+
+
+            </div>
+
+            <div class="form">
+                <label for="name"><input type="text" id="name" placeholder="Nome" size="25"></label>
+                <label for="email"><input type="text" id="email" placeholder="Email" size="25"><br></label>
+                <label for="menssagem"> <input type="text" id="menssagem" placeholder="Menssagem" size="60"></label><br>
+                <input type="submit" name="enviar" id="button" value="Enviar">
+            </div>
+
+           
+
+        </div>
+
+        <div class="powered">
+            <a href="https://www.instagram.com/flaviocarvlh/" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+            <a href="mailto:flaviocarvlh1@gmail.com" target="_blank"><i class="fa-regular fa-envelope" style="color: #ffffff;"></i></a>
+            <a href="https://www.linkedin.com/in/flaviocarvlh1/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+            <a href="https://github.com/flaviocarvlh1" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+           <p>Powered By Flávio Carvalho</p>
+        </div>
+    </footer>
+</body>
+</html>
